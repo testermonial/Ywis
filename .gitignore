@@ -1,0 +1,90 @@
+# .gitignore - Ywis Beauty Website
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+.env.local
+.env.*.local
+
+# Dependencies (falls Node.js verwendet)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build & Distribution
+/dist/
+/build/
+*.zip
+*.rar
+*.7z
+
+# Log Files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temp Files
+*.tmp
+*.temp
+.cache/
+
+# Private/Sensitive Files
+.env
+.env.production
+.env.local
+*.pem
+*.key
+.ssl/
+
+# Backup Files
+*.bak
+*.backup
+*~
+*.old
+
+# System Files
+desktop.ini
+.gitkeep
+
+# Analytics & Tracking (if applicable)
+/ga-tracking.html
+/analytics-config.js
+
+# Unused/Old Versions
+/old-website/
+/archive/
+/_backup/
+
+# Generated Files
+sitemap.xml
+sitemap.xml.gz
+robots.txt
+
+# IDE specific
+.vscode/settings.json
+.vscode/launch.json
+.vscode/extensions.json
+
+# Misc
+.fusebox/
+.runtimeconfig.json
